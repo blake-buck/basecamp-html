@@ -1,0 +1,89 @@
+body{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.navBar{
+	float:left;
+	color:white;
+	background-color:gray;
+	width:100%;
+	margin:0;
+	padding:0;
+	padding-bottom:16px;
+}
+.navBar li{
+	float:left;
+	display:block;
+	width:10%;
+}
+.navBar li:first-of-type{
+	width:70%;
+	margin-top:auto;
+	margin-bottom:auto;
+}
+
+.pageTitle{
+	float:left;
+	width:100%;
+	background-color:black;
+	color:gold;
+	padding:50px 0;
+}
+.pageTitle p{
+	text-align:center;
+	font-size:5em;
+	font-weight:bold;
+}
+
+#threeBox li, #twoBox li{
+	float:left;
+	display:block;
+	padding-top:80px;
+	padding-bottom:80px;
+}
+#threeBox li:nth-child(even){
+	width:20%;
+	background-color:cyan;
+	border-radius:20px;
+}
+#threeBox li:nth-child(odd){
+	width:10%;
+}
+#threeBox li:first-of-type{
+	width:7%;
+}
+
+#twoBox li:nth-child(even){
+	width:42.5%;
+	background-color:orange;
+}
+#twoBox li:nth-child(odd){
+	width:5%;
+}
+#twoBox li:first-of-type{
+	width:3%;
+}
+
+.row{
+	padding-top:30px;
+	clear:left;
+}
+
+
+
+#textDump, #picture{
+	float:left;
+	width:40%;
+	margin-left:9%;
+}
+#picture{
+	width:300px;
+}
+
+footer{
+	padding:35px 0px;
+	background-color:#000029;
+	color:#000029
+}
